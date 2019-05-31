@@ -8,11 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstController: UIViewController {
 
+    @IBOutlet weak var startButton: UIButton!
+    
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        startButton.layer.cornerRadius = 15
     }
 
 
