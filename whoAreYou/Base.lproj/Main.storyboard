@@ -129,7 +129,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="16" translatesAutoresizingMaskIntoConstraints="NO" id="hVC-PA-iVr">
-                                <rect key="frame" x="16" y="96" width="288.00000000000023" height="140"/>
+                                <rect key="frame" x="16" y="96" width="288" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="Ltf-0a-V5z"/>
                                 </constraints>

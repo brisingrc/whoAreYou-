@@ -44,13 +44,13 @@ extension ResultViewController {
 extension ResultViewController {
     func resultCount(){
         if correctAnswers <= 8 {
-            resultLabel.text = "Ничего ты не знаешь, Джон Сноу.Вам стоит пересмотреть Игру Престолов "
+            resultLabel.text = "Ваш результат- \(correctAnswers) правильных ответов из 20.Вам стоит пересмотреть Игру Престолов "
         }
-        else if correctAnswers <= 15 {
-            resultLabel.text = "Вы наверняка с нетерпением ждете премьеры заключительного сезона Игры престолов, но кое-что все таки успели подзабыть. Да,с таким количеством персонажей, хитросплетениями и неожиданными поворот - это неудивительно."
+        else if correctAnswers <= 14 {
+            resultLabel.text = "Ваш результат- \(correctAnswers) правильных ответов  из 20.Многое знаете, но кое-что успели подзабыть."
         }
         else {
-            resultLabel.text = " Вы- настоящий знаток Игры престолов."
+            resultLabel.text = "Ваш результат- \(correctAnswers) правильных ответов  из 20. Вы- настоящий знаток Игры престолов."
         }
     }
 }
